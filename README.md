@@ -17,4 +17,4 @@ mvn test # run test
 mvn exec:java # run project
 
 java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App # run jar
-```# Java-8-Optional
+```
