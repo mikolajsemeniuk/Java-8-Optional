@@ -1,8 +1,8 @@
 ```sh
 # DgroupId: package of my main class
 # DartifactId: project folder name
-# DarchetypeArtifactId: ??
-# DarchetypeVersion: ??
+# DarchetypeArtifactId: id of your package (if you gonna publish)
+# DarchetypeVersion: version of our package (if you gonna publish)
 # DinteractiveMode: ??
 mvn archetype:generate \
     -DgroupId=com.mycompany.app \
