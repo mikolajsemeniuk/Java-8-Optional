@@ -12,7 +12,8 @@ mvn archetype:generate \
     -DinteractiveMode=false
 
 mvn package # without ./m2
-mvn install # with ./m2
+mvn install # with ./m2, create target folder
+mvn clean # remove target folder
 mvn test # run test
 mvn exec:java # run project
 
